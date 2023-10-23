@@ -131,7 +131,14 @@ class Obstacle(pygame.sprite.Sprite):
 player = pygame.sprite.GroupSingle()
 player.add(Player())
 
-Vi synes vores kode var meget rodet, fordi vi har mange forskellige dele til vores player og obstacles. Så vi lavede en class for at samle de dele. Det giver nogle ekstra self commands for at holde styr på alle de variabler vi har lavet.
+Vi synes vores kode var meget rodet, fordi vi har mange forskellige dele til vores player og obstacles. Så vi lavede en class for at samle de dele. Det giver nogle ekstra self commands for at holde styr på alle de variabler vi har lavet. 
+Class gøre så billede og rect billede bliver den samme. Så skal vi skrive halvt så meget.
+
+
+
+
+
+
 
 ![image](https://github.com/Somehowginger/Pygame-projekt/assets/74010507/984037e1-f392-4af9-80a2-5ed57c041295)
 På billedet kan an se vores flowdiagram. Flowdiagrammt er meget simpelt, ligesom spillet. Siden der ikke sker så meget. Det sekund spillet starter, begynder fjenderne at spawne i højre del af skærmen, i tilfældige højder. Hvis karakteren rør en karakter så stopper alt og skærmen skifter til slutskærmen. Man undviger fjenderne ved at hoppe. Dette gør man ved at trykke på mellmrum. Karakteren skifter derefter til hoppe animationen, og karakteren flyver op og bagefter ned igen, og på den måde simulerer et hop.
