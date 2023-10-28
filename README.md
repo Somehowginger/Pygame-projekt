@@ -5,7 +5,7 @@ Python (import pygame)
 Visuel Studio Code
 
 Spil antal tegn = 7319
-Read me antal tegn = 
+Read me antal tegn = 7.061
 
 Vi har lavet et simpelt run and jump spil. Man spiller som dreng som skal hoppe over snegle og undvige fluer i luften. Hvis man bliver ramt af sneglen eller fluen slutter og spillet og man kan se sin score og spille igen.
 Vi har 2 player inputs i vors spil, space/mellemrum og click på musen. Space har to handlinger i vores spil. Når man spiller selve spillet, bliver space brugt til at hoppe. Hvis man er på startscreen/game over screen, så bruger man space til at starte spillet igen. Musen får kun spilleren til at hoppe.
@@ -132,7 +132,7 @@ player = pygame.sprite.GroupSingle()
 player.add(Player())
 
 Vi synes vores kode var meget rodet, fordi vi har mange forskellige dele til vores player og obstacles. Så vi lavede en class for at samle de dele. Det giver nogle ekstra self commands for at holde styr på alle de variabler vi har lavet. 
-Class gøre så billede og rect billede bliver den samme. Så skal vi skrive halvt så meget.
+Class gøre så billede og rect billede bliver den samme. Så skal vi skrive halvt så meget kode for at flytte vores player og obstacle og deres kollision.
 
 
 
