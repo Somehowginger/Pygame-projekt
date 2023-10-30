@@ -1,5 +1,5 @@
 Pygame-projekt
-Julian og Emil 2.P
+Julian, Emil og Muzdalifa 2.P
 
 Python (import pygame)
 Visuel Studio Code
